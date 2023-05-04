@@ -1,0 +1,25 @@
+.author {
+  display: flex;
+}
+.author__title {
+  margin: 20px 0px 30px 10px;
+}
+.author__area {
+  display: flex;
+  flex-direction: column;
+}
+.author__image img {
+  width: 105px;
+  height: 130px;
+  margin-right: 25px;
+  border-radius: 10px;
+}
+.author__name span {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.author__detail {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}

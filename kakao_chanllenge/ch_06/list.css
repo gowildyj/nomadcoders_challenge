@@ -1,0 +1,23 @@
+.list {
+  margin-top: 20px;
+  margin-right: 0px;
+}
+.list__area {
+  display: flex;
+  flex-direction: row;
+  overflow: clip;
+  margin-top: 20px;
+}
+.list__image img {
+  width: 70px;
+  height: 100px;
+  margin-right: 25px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.list__star {
+  margin-left: 3px;
+}
+.list__star i {
+  margin-right: 2px;
+}
