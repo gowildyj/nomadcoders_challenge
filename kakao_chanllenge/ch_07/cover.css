@@ -1,0 +1,30 @@
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cover__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cover__column img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px #339dd7;
+}
+
+.cover__title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.cover__subtitle {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container-list,
+.container-play {
+  width: 360px;
+  height: 780px;
+  background-color: white;
+  border-radius: 30px;
+  margin: 50px 50px;
+  padding: 0px 20px;
+  position: relative;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+  font-family: "Nunito", sans-serif;
+}
