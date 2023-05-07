@@ -1,0 +1,33 @@
+.more-screen__header {
+  margin-bottom: 30px;
+}
+.suggestions {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: var(--main-border);
+}
+.suggestions__title {
+  margin-bottom: 30px;
+}
+.suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+}
+.suggestions__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.suggestions__icon__image {
+  width: 50px;
+  height: 50px;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
