@@ -10,6 +10,7 @@
 @import "badge.css";
 @import "icon-row.css";
 @import "alt-screen-header.css";
+@import "no-mobile.css";
 
 /* Screens */
 @import "login.css";
@@ -17,6 +18,7 @@
 @import "find.css";
 @import "more.css";
 @import "chat.css";
+@import "settings.css";
 
 body {
   font-family: "Nunito", sans-serif;

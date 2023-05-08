@@ -22,11 +22,12 @@
         <div class="screen-header__icons">
             <span><i class="fa-solid fa-magnifying-glass"></i></span>
             <span><i class="fa-solid fa-music"></i></span>
-            <span><i class="fa-solid fa-gear"></i>
+            <span><a href="settings.html"><i class="fa-solid fa-gear"></i></a>
                 <div class="badge--sm"></div>
             </span>
         </div>
     </header>
+
     <div class="friends-display">
         <a id="friends-display-link" href="#">
             <i class="fa-solid fa-circle-info"></i>
@@ -42,7 +43,7 @@
                         class="nav__notification badge">1</span></a></li>
             <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass"></i></a>
             </li>
-            <li class="nav__btn"><a class="nav__link" href="settings.html"><i class="fa-solid fa-ellipsis"></i>
+            <li class="nav__btn"><a class="nav__link" href="more.html"><i class="fa-solid fa-ellipsis"></i>
                     <div class="badge--sm"></div>
                 </a></li>
         </ul>
@@ -51,11 +52,34 @@
     <main class="friends__screen">
         <div class="user-component">
             <div class="user-component__column">
-                <img class="user-component__avatar user-component__avatar--lg"
-                    src="https://akns-images.eonline.com/eol_images/Entire_Site/201363/rs_600x600-130703124143-600.Gru.mh.070313.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top"
+                <img class="user-component__avatar"
+                    src="https://www.tradeinn.com/f/13921/139213623/minions-hello-bob-large-piggy-bank.jpg" alt="">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Bob</h4>
+                    <!-- <h6 class="user-component__subtitle">Bob</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar"
+                    src="https://i.pinimg.com/236x/4e/17/7d/4e177d7b41772d35a54f9bd5e5f06806--die-minions-minions-love.jpg"
                     alt="">
                 <div class="user-component__text">
-                    <h4 class="user-component__title">Gru</h4>
+                    <h4 class="user-component__title">Kevin</h4>
+                    <!-- <h6 class="user-component__subtitle">Bob</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        <div class="user-component">
+            <div class="user-component__column">
+                <img class="user-component__avatar"
+                    src="https://w7.pngwing.com/pngs/342/651/png-transparent-despicable-me-minion-art-agnes-stuart-the-minion-bob-the-minion-dave-the-minion-kevin-the-minion-minions-bebe-despicable-me-stuart-the-minion-kevin-the-minion.png"
+                    alt="">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Stuart</h4>
                     <!-- <h6 class="user-component__subtitle">Bob</h6> -->
                 </div>
             </div>
@@ -82,6 +106,12 @@
         </div>
     </main>
 
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+    <div id="splash-screen">
+        <i class="fa-solid fa-comment"></i>
+    </div>
     <script src="https://kit.fontawesome.com/ae146c0eb2.js" crossorigin="anonymous"></script>
 </body>
 

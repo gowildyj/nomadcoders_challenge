@@ -2,7 +2,7 @@
   margin-bottom: 30px;
 }
 .suggestions {
-  margin-top: 50px;
+  margin-top: 40px;
   padding-top: 30px;
   border-top: var(--main-border);
 }
@@ -30,4 +30,10 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+}
+.suggestions__icon span {
+  font-size: 14px;
+}
+.profile {
+  padding: 0 30px;
 }
